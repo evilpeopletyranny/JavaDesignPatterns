@@ -1,4 +1,4 @@
-package LR2.overriding;
+package introduction.overriding;
 
 /**
  * Перечисление

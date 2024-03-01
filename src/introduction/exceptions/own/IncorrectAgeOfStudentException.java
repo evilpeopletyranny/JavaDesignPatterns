@@ -1,4 +1,4 @@
-package LR2.exceptions.own;
+package introduction.exceptions.own;
 
 /**
  * Пример реализации собственного исключения

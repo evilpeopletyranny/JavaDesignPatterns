@@ -1,4 +1,4 @@
-package LR2.collections;
+package introduction.collections;
 
 import java.util.*;
 

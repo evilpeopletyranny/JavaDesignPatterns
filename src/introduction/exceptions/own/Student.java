@@ -1,4 +1,4 @@
-package LR2.exceptions.own;
+package introduction.exceptions.own;
 
 /**
  * Синтетический пример использования исключений при проверке параметров.

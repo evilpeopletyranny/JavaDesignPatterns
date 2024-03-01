@@ -1,4 +1,4 @@
-package LR2.collections;
+package introduction.collections;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -15,5 +15,8 @@ public class SetEdu {
         set.add("Ivan");    //второй Ivan не добавиться
 
         //Проверка, что в множестве содержаться элементы
+        System.out.println("Есть ли Marina в множестве: " + set.contains("Marina"));
+        System.out.println("Кол-во элеменетов в множестве: " + set.size());
+        for (var name: set) System.out.println(name);
     }
 }

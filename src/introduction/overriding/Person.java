@@ -1,4 +1,4 @@
-package LR2.overriding;
+package introduction.overriding;
 
 import java.util.Objects;
 
@@ -151,15 +151,3 @@ public class Person {
                 && weight.equals(other.weight);
     }
 }
-
-/**
- * Задание:
- * Реализуйте POJO класс User, у которого есть:
- *  - id
- *  - username
- *  - login
- *  - password
- *  - email
- *
- *  Т.е. должен содержать конструктор со всеми параметрами, геттеры, сеттеры, toString, hashCode, equals
- */
