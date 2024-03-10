@@ -80,4 +80,4 @@
    Источники:
 </h3>
 Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Alexander%20Shvets%20RU.pdf)
-Design Patterns with Java [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
+Design Patterns with Java [Singleton](src/patterns/creational/singleton/books/Olaf Musch EN.pdf)
