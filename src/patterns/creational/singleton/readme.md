@@ -79,4 +79,4 @@
 <h3 align="center">
    Источники:
 </h3>
-[ALo](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
+This site was built using [GitHub Pages](https://pages.github.com/).
