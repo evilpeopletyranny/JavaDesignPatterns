@@ -17,7 +17,7 @@
    защищены от записи, поэтому любой код может подменять
    их значения без вашего ведома.
 
-<h3 style="text-align: center;">
+<h3 align="center">
    Реализация
 </h3>
 Все реализации одиночки сводятся к тому, чтобы скрыть
@@ -30,7 +30,7 @@
 *Все к этому привыкли, так что используйте только такие названия.*
 ***Гадать что имел ввиду автор люди не любях и не хотят!***
 
-<h3 style="text-align: center;">
+<h3 align="center">
    Singleton UML-диаграмма
 </h3>
 
@@ -53,7 +53,7 @@
 
 *Автор данного репозитория не соглсаен с некоторыми минусами. :grin:*
 
-<h3 style="text-align: center;">
+<h3 align="center">
    Антипаттерн
 </h3>
 
@@ -67,11 +67,11 @@
 Да, решает две проблемы. Нет, не плохой паттерн, а один из самых распространенных. В некоторых ЯП для него даже имеются
 встроенные языковые кострукции, например ```Object``` в Scala/Kotlin.
 
-<h3 style="text-align: center;">
+<h3 align="center">
    Потоко-безопасный Singleton
 </h3>
 
-В книге [Design Patterns with Java](src/patterns/creational/singleton/books/Olaf Musch EN.pdf) *Olaf Musch* приведены
+В книге [Design Patterns with Java](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf) *Olaf Musch* приведены
 несколько способов создания потоко-безопасных.
 Сущесвует несколько способов создания потоко-безопасных синглотов, в завивисимости от ситуации.
 Синглтонов. Возможно вам пригодиться это при выполнении ЛР3.
