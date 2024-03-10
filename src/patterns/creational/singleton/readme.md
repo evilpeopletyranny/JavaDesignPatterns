@@ -51,7 +51,7 @@
 - Маскирует плохой дизайн.
 - Проблемы мультипоточности.
 
-*Автор данного репозитория не соглсаен с некоторыми минусами. :grin:*
+*Автор данного репозитория не соглсаен с некоторыми минусами.* :grin:
 
 <h3 align="center">
    Антипаттерн
@@ -81,3 +81,4 @@
 </h3>
 
 - Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
+- Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
