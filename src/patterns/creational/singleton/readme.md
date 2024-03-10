@@ -80,4 +80,4 @@
    Источники:
 </h3>
 
-[Design Patterns with Java](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
+- Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
