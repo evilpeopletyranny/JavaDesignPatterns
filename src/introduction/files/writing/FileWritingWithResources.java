@@ -18,8 +18,8 @@ public class FileWritingWithResources {
      * @param text коллекция строк для записи
      */
     public static void bufferedWritingWithResources(String path, List<String> text) {
-        try(BufferedWriter writer = Files.newBufferedWriter(Paths.get(path))) {
-            for (var line: Objects.requireNonNull(text)) writer.write(line);
+        try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(path))) {
+            for (var line : Objects.requireNonNull(text)) writer.write(line);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -27,7 +27,7 @@ public class FileWritingWithResources {
 
     /**
      * Пример записи.
-     *
+     * <p>
      * При выполнении ЛР, если вам придеться работать с файлами - мне всё равно каким образом вы будете
      * это делать.
      * В данном случае вам просто показан пример буфферезированного вывода из Java NIO - один из наилуших вариантов.
@@ -40,6 +40,6 @@ public class FileWritingWithResources {
                 "В доме,\n",
                 "Который построил Джек.\n");
 
-        bufferedWritingWithResources("src/LR2/files/resources/testText", text);
+        bufferedWritingWithResources("src/introduction/files/TestIO", text);
     }
 }

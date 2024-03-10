@@ -51,6 +51,6 @@ public class FileWritingTest {
                 "В доме,\n",
                 "Который построил Джек.\n");
 
-        bufferedWriting("src/LR2/files/resources/testText", text);
+        bufferedWriting("src/introduction/files/TestIO", text);
     }
 }

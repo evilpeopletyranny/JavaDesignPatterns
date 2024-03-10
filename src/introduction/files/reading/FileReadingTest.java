@@ -18,7 +18,7 @@ public class FileReadingTest {
      */
     public static List<String> bufferedReading(String path) {
         List<String> strList = new ArrayList<>();
-        try(BufferedReader reader = Files.newBufferedReader(Paths.get(path))){
+        try (BufferedReader reader = Files.newBufferedReader(Paths.get(path))) {
             //lines() позволяет получить стрим строк - Stream<String>
             //Но поскольку механизм стримов сложен и не относиться к нашему курсу
             //то предлагается просто всё собрать в Список конструкцией .collect(Collectors.toList())
@@ -30,10 +30,7 @@ public class FileReadingTest {
     }
 
     public static void main(String[] args) {
-        List<String> list = bufferedReading("src/LR2/files/resources/testText");
-        for (var line: list) System.out.println(line);
-
-        String str = "L;weeg";
-
+        List<String> list = bufferedReading("src/introduction/files/TestIO");
+        for (var line : list) System.out.println(line);
     }
 }

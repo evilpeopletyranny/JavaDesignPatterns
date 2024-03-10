@@ -1,4 +1,4 @@
-package introduction.overriding;
+package introduction.pojo;
 
 /**
  * Перечисление
