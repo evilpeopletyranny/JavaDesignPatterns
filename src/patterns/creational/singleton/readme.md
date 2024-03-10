@@ -1,7 +1,7 @@
-<h1 style="text-align: center;">
+<h1 align="center">
    Singleton
 </h1>
-<h3 style="text-align: center;">
+<h3 align="center">
    Одиночка
 </h3>
 
