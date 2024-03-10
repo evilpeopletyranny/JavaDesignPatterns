@@ -34,9 +34,8 @@
    Singleton UML-диаграмма
 </h3>
 
-<p align="center">
-  ![Singleton UML](src/patterns/creational/singleton/diagram.png)
-</p>
+![Singleton UML](src/patterns/creational/singleton/diagram.png)
+
 
 <h3>Плюсы</h3>
 
