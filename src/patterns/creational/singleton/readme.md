@@ -30,9 +30,11 @@
 *Все к этому привыкли, так что используйте только такие названия.*
 ***Гадать что имел ввиду автор люди не любях и не хотят!***
 
-<div style="text-align: center;">
-   ![UML-диаграмма Singleton'а - Книга Швеца](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png)
-</div>
+<p align="center">
+  <img src="https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png"/>
+</p>
+   ![UML-диаграмма Singleton'а - Книга Швеца]()
+
 
 <h5>Плюсы</h5>
 
