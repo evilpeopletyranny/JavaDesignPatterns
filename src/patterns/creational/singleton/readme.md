@@ -79,7 +79,8 @@
 <h3 align="center">
    Пример реализации
 </h3>
-[Код](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/singleton/code)
+
+[Имитация объекта, отвечающего за подключение к БД.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/singleton/code)
 
 <h3 align="center">
    Источники
