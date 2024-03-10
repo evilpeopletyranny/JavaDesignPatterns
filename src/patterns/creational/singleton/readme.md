@@ -1,9 +1,9 @@
 <h1 style="text-align: center;">
    Singleton
 </h1>
-<h2 style="text-align: center;">
+<h3 style="text-align: center;">
    Одиночка
-</h2>
+</h3>
 
 **Одиночка** — это порождающий паттерн проектирования, который гарантирует, что у класса есть только один экземпляр, и
 предоставляет к нему глобальную точку доступа.
@@ -76,4 +76,8 @@
 Сущесвует несколько способов создания потоко-безопасных синглотов, в завивисимости от ситуации.
 Синглтонов. Возможно вам пригодиться это при выполнении ЛР3.
 
-
+<h3 align="center">
+   Источники:
+</h3>
+- [Одиночка (Введение в паттерны проектирования)](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Alexander%20Shvets%20RU.pdf)
+- [Singleton (Design Patterns with Java)](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
