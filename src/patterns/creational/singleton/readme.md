@@ -35,7 +35,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png>
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png alt="singleton uml">
 </p>
 
 
@@ -87,4 +87,4 @@
 </h3>
 
 - Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
+- Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Alexander%20Shvets%20RU.pdf)
