@@ -35,7 +35,7 @@
 </h3>
 
 <p align="center">
-  <img src="src/patterns/creational/singleton/diagram.png"/>
+  ![Singleton UML](src/patterns/creational/singleton/diagram.png)
 </p>
 
 <h3>Плюсы</h3>
