@@ -17,9 +17,9 @@
    защищены от записи, поэтому любой код может подменять
    их значения без вашего ведома.
 
-<h5 style="text-align: center;">
+<h3 align="center">
    Реализация
-</h5>
+</h3>
 Все реализации одиночки сводятся к тому, чтобы скрыть
 конструктор по умолчанию и создать публичный
 статический метод, который и будет контролировать
@@ -30,25 +30,32 @@
 *Все к этому привыкли, так что используйте только такие названия.*
 ***Гадать что имел ввиду автор люди не любях и не хотят!***
 
-![UML-диаграмма Singleton'а - Книга Швеца](src/patterns/creational/singleton/diagram.png)
+<h3 align="center">
+   Singleton UML-диаграмма
+</h3>
 
-<h5>Плюсы</h5>
+<p align="center">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png>
+</p>
+
+
+<h3>Плюсы</h3>
 
 - Гарантирует наличие единственного экземпляра класса.
 - Предоставляет к нему глобальную точку доступа.
 
-<h5>Минусы</h5>
+<h3>Минусы</h3>
 
 - Нарушает принцип единственной ответственности класса.
 - Требует постоянного создания Mock-объектов при юнит-тестирования.
 - Маскирует плохой дизайн.
 - Проблемы мультипоточности.
 
-*Автор данного репозитория не соглсаен с некоторыми минусами. :grin:*
+*Автор данного репозитория не соглсаен с некоторыми минусами.* :grin:
 
-<h5 style="text-align: center;">
+<h3 align="center">
    Антипаттерн
-</h5>
+</h3>
 
 Любят холеварить что синглтон антипаттерн, так как:
 
@@ -60,13 +67,24 @@
 Да, решает две проблемы. Нет, не плохой паттерн, а один из самых распространенных. В некоторых ЯП для него даже имеются
 встроенные языковые кострукции, например ```Object``` в Scala/Kotlin.
 
-<h5 style="text-align: center;">
+<h3 align="center">
    Потоко-безопасный Singleton
-</h5>
+</h3>
 
-В книге [Design Patterns with Java](src/patterns/creational/singleton/books/Olaf Musch EN.pdf) *Olaf Musch* приведены
+В книге [Design Patterns with Java](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf) *Olaf Musch* приведены
 несколько способов создания потоко-безопасных.
 Сущесвует несколько способов создания потоко-безопасных синглотов, в завивисимости от ситуации.
 Синглтонов. Возможно вам пригодиться это при выполнении ЛР3.
 
+<h3 align="center">
+   Пример реализации
+</h3>
 
+[Имитация объекта, отвечающего за подключение к БД.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/singleton/code)
+
+<h3 align="center">
+   Источники
+</h3>
+
+- Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
+- Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
