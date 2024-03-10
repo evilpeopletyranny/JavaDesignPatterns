@@ -34,7 +34,9 @@
    Singleton UML-диаграмма
 </h3>
 
-<img style="text-align: center; src="https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png"/>
+<p align="center">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png>
+</p>
 
 
 <h3>Плюсы</h3>
