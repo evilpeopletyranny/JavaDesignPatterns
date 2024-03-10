@@ -77,7 +77,12 @@
 Синглтонов. Возможно вам пригодиться это при выполнении ЛР3.
 
 <h3 align="center">
-   Источники:
+   Пример реализации
+</h3>
+[Код](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/singleton/code)
+
+<h3 align="center">
+   Источники
 </h3>
 
 - Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
