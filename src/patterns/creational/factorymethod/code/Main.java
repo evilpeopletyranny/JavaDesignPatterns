@@ -8,8 +8,8 @@ public class Main {
      */
     public static void main(String[] args) {
         Restaurant mammaMia = new Pizzeria();
-        mammaMia.order();
-        Restaurant istanbul = new BurgerHouse();
-        istanbul.order();
+        System.out.println(mammaMia.order());
+        Restaurant burgerQueen = new BurgerHouse();
+        burgerQueen.order();
     }
 }

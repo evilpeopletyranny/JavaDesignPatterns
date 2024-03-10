@@ -33,7 +33,18 @@
 - Билдер с полями по умолчанию.
 - Билдер без проверки переданных данных перед пострением объекта.
 - Билдер с проверкой переданных данных перед пострением объекта.
-- Объединение нескольких указанных выше вариантов. 
+- Объединение нескольких указанных выше вариантов.
+
+<h3>Плюсы</h3>
+
+- Позволяет создавать продукты пошагово.
+- Изолирует сложный код сборки продукта от его основной бизнес-логики.
+
+<h3>Минусы</h3>
+
+- Усложняет код программы за счёт дополнительных классов.
+- Клиент будет привязан к конкретным классам строителей, так как в интерфейсе строителя может не быть метода получения
+  результата.
 
 <h5 align="center">
    Проблемы с примерами
@@ -50,13 +61,15 @@
    Примеры реализации
 </h3>
 
-- Самой простой пример это класс ```StringBuilder```. Этот класс позволяет работать с изменяемыми строками, где в качестве шагов создания добавляются символы в строку. *Всё гениальное простое*.
+- Самой простой пример это класс ```StringBuilder```. Этот класс позволяет работать с изменяемыми строками, где в
+  качестве шагов создания добавляются символы в строку. *Всё гениальное простое*.
 - [Реализация внутренного билдера для создания Поездки.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/builder/code)
-
 
 <h3 align="center">
    Источники
 </h3>
 
-- Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/builder/books/Olaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/builder/books/Alexander%20Shvets%20RU.pdf)
+- Design Patterns with
+  Java: [Builder](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/builder/books/Olaf%20Musch%20EN.pdf)
+- Введение в паттерны
+  проектирования: [Строитель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/builder/books/Alexander%20Shvets%20RU.pdf)
