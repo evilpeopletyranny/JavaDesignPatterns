@@ -42,7 +42,7 @@
    свободно использовать объект абстракции, забыв о реализации.
 
 <h3 align="center">
-   Adapter UML-диаграмма
+   Bridge UML-диаграмма
 </h3>
 
 <p align="center">
@@ -75,6 +75,6 @@
 </h3>
 
 - Design Patterns with
-  Java: [Adapter](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/bridge/books/Olaf%20Musch%20EN.pdf)
+  Java: [Bridge](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/bridge/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Адаптер](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/bridge/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Bridge](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/bridge/books/Alexander%20Shvets%20RU.pdf)
