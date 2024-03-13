@@ -24,7 +24,7 @@
 
 1. [Введение в ЯП Java.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/introduction)
 2. [Паттерны проектирования GoF.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns)
-3. [Использование современных фреймворков, реализующих паттерны для разработки - Spring.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/spring)
+3. [Использование современных фреймворков, реализующих паттерны - Spring.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/spring)
 4. [Применение паттернов при работе с параллелизмом.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/concurrency)
 
 <h2 align="center">
