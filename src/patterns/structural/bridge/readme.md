@@ -77,4 +77,4 @@
 - Design Patterns with
   Java: [Bridge](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/bridge/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Bridge](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/bridge/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Мост](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/bridge/books/Alexander%20Shvets%20RU.pdf)
