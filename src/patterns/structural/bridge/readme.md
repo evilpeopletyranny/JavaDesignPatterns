@@ -68,7 +68,7 @@
 </h3>
 
 - [JavaRush: паттерн проектирования мост.](https://javarush.com/groups/posts/2570-znakomstvo-s-patternom-proektirovanija-bridge)
-- [Пример с девайсами и пультами.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/structural/bridge/code/shapes)
+- [Пример с девайсами и пультами.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/structural/bridge/code/devices)
 
 <h3 align="center">
    Источники
