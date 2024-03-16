@@ -6,7 +6,7 @@ package patterns.structural.proxy.code;
 public class Main {
     public static void main(String[] args) {
         var youtubeService = new ThirdPartyYoutubeClass();
-        var youtubeProxy = new CachedYoutubeProxy(youtubeService);
+        var youtubeProxy = new CachedYoutubeProxy();
 
         //набор методов один и тот же, но в прокси есть кэш
         System.out.println(youtubeService.getVideoList());

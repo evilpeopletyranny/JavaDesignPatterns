@@ -15,7 +15,7 @@ public class CachedYoutubeProxy implements ThirdPartyYoutubeLib {
     /**
      * Сервис, который "заворачивается" в прокси
      */
-    private ThirdPartyYoutubeClass thirdPartyYoutubeClass;
+    private ThirdPartyYoutubeClass thirdPartyYoutubeClass = new ThirdPartyYoutubeClass();
     private List<Video> listCache;
     private Video videoCache;
 
@@ -23,8 +23,7 @@ public class CachedYoutubeProxy implements ThirdPartyYoutubeLib {
      * В конструктор передаем ссылку на сервис.
      * Если у нас предусматривается только одно прокси, то в общем-то можно инициализировать поле сразу.
      */
-    public CachedYoutubeProxy(ThirdPartyYoutubeClass thirdPartyYoutubeClass) {
-        this.thirdPartyYoutubeClass = thirdPartyYoutubeClass;
+    public CachedYoutubeProxy() {
     }
 
     /**
