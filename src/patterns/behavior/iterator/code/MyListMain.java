@@ -1,4 +1,4 @@
-package patterns.behavior.iterator;
+package patterns.behavior.iterator.code;
 
 public class MyListMain {
     public static void main(String[] args) {

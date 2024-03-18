@@ -1,4 +1,4 @@
-package patterns.behavior.iterator;
+package patterns.behavior.iterator.code;
 
 public class MyArrayMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package patterns.behavior.iterator;
+package patterns.behavior.iterator.code;
 
 import java.util.NoSuchElementException;
 
