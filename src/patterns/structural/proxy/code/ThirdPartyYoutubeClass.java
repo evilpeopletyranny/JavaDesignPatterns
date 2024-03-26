@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Конкретная реализация сервиса, который будет обернут в прокси.
  */
-public class ThirdPartyYoutubeClass {
+public final class ThirdPartyYoutubeClass {
     private final List<Video> downloadedVideo = List.of(
             new Video(1, "Учимся программировать на Java."),
             new Video(2, "Изучаем паттерны проектирования на Java."),
