@@ -54,15 +54,14 @@
 
 - Посредник может сильно раздуться и легко превратиться в God-класс.
 
-
-Между **Mediator** и **Observer** по началу сложно уловить разницу.
-
 <h3 align="center">
    Примеры
 </h3>
 
 - В паттерне Model-View-Controller, controller является посредником между view/use и model.
 - [Реализация чат-команты на примере посредника.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/mediator/code/)
+
+Между **Mediator** и **Observer** по началу сложно уловить разницу.
 
 <h5>
    Если по-умному, то их различие в следующем:
