@@ -82,4 +82,4 @@
 - Design Patterns with
   Java: [Strategy](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/strategy/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Стратегия](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/state/strategy/books/Alexander%20Shvets%20RU.pdf) 
+  проектирования: [Стратегия](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/strategy/books/Alexander%20Shvets%20RU.pdf)

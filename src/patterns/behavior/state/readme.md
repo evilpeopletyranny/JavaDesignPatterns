@@ -81,4 +81,4 @@
 - Design Patterns with
   Java: [State](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/state/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Наблюдатель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/state/observer/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Наблюдатель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/state/books/Alexander%20Shvets%20RU.pdf)
