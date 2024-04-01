@@ -1,7 +1,7 @@
 package patterns.behavior.command.code.textoperation;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Класс исполнитель команд.
