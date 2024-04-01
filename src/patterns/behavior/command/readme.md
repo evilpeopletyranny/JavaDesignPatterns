@@ -60,7 +60,8 @@
    Примеры
 </h3>
 
-- [История выполнения команд над текстовыми файлами](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/code)
+- [История выполнения команд над текстовыми файлами](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/code/textoperation)
+- [Команда создания объекта](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/code/create)
 
 <h3 align="center">
    Источники

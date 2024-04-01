@@ -1,4 +1,4 @@
-package patterns.behavior.command.code;
+package patterns.behavior.command.code.textoperation;
 
 /**
  * Интерфейс команды, содержащий лишь один метод выполнения команды

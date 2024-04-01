@@ -1,4 +1,4 @@
-package patterns.behavior.command.code;
+package patterns.behavior.command.code.textoperation;
 
 /**
  * Реализация конкретной команды - открытие текстового файла.

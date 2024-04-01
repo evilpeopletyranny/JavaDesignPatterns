@@ -1,4 +1,4 @@
-package patterns.behavior.command.code;
+package patterns.behavior.command.code.textoperation;
 
 import java.util.ArrayList;
 import java.util.List;

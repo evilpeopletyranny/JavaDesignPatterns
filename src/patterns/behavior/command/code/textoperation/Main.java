@@ -1,4 +1,4 @@
-package patterns.behavior.command.code;
+package patterns.behavior.command.code.textoperation;
 
 /**
  * Клиентский код, работающий с историей/очередью команд на текстовым файлом.
