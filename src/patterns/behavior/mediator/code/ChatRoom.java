@@ -17,8 +17,7 @@ public class ChatRoom implements IChatRoom {
      * @param userId id пользователя, которому будет отправлено сообщение.
      */
     @Override
-    public void sendMessage(String msg, String userId)
-    {
+    public void sendMessage(String msg, String userId) {
         User u = usersMap.get(userId);  //передача сообщения конкретному пользователю
         u.receive(msg);
     }
