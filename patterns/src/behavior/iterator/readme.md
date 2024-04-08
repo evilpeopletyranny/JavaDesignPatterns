@@ -48,7 +48,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/iterator/diagram.png alt="Iterator uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/iterator/diagram.png alt="Iterator uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -65,7 +65,7 @@
    Примеры
 </h3>
 
-- [Итератор для коллекции, основанной на массиве.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/iterator/code/MyArray.java)
+- [Итератор для коллекции, основанной на массиве.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/iterator/code/MyArray.java)
 
 
 <h3 align="center">
@@ -73,6 +73,6 @@
 </h3>
 
 - Design Patterns with
-  Java: [Iterator](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/iterator/books/Olaf%20Musch%20EN.pdf)
+  Java: [Iterator](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/iterator/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Итератор](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/iterator/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Итератор](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/iterator/books/Alexander%20Shvets%20RU.pdf)

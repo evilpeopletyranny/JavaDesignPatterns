@@ -56,7 +56,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/chain/diagram.png alt="Chain of Responsibility uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/chain/diagram.png alt="Chain of Responsibility uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -73,15 +73,15 @@
    Примеры
 </h3>
 
-- [Уровень логгирования.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/chain/code)
+- [Уровень логгирования.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/chain/code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Chain of Responsibility](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/chain/books/Olaf%20Musch%20EN.pdf)
+  Java: [Chain of Responsibility](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/chain/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Цепочка обязаностей](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/chain/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Цепочка обязаностей](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/chain/books/Alexander%20Shvets%20RU.pdf)
 - [Habr: Шаблон проектирования: Chain of Responsibility](https://habr.com/ru/articles/727454/)
 - [Baeldung: Chain of Responsibility Design Pattern in Java](https://www.baeldung.com/chain-of-responsibility-pattern)

@@ -41,7 +41,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/diagram.png alt="Command uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/command/diagram.png alt="Command uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -60,15 +60,15 @@
    Примеры
 </h3>
 
-- [История выполнения команд над текстовыми файлами](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/code/textoperation)
-- [Команда создания объекта](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/code/create)
+- [История выполнения команд над текстовыми файлами](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/command/code/textoperation)
+- [Команда создания объекта](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/command/code/create)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Command](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/books/Olaf%20Musch%20EN.pdf)
+  Java: [Command](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/command/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Команда](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/command/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Команда](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/command/books/Alexander%20Shvets%20RU.pdf)
 - [Baeldung](https://www.baeldung.com/java-command-pattern)
