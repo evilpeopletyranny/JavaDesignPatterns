@@ -35,7 +35,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/diagram.png alt="singleton uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/singleton/diagram.png alt="singleton uml">
 </p>
 
 
@@ -71,7 +71,7 @@
    Потоко-безопасный Singleton
 </h3>
 
-В книге [Design Patterns with Java](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf) *Olaf Musch* приведены
+В книге [Design Patterns with Java](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/singleton/books/Olaf%20Musch%20EN.pdf) *Olaf Musch* приведены
 несколько способов создания потоко-безопасных.
 Сущесвует несколько способов создания потоко-безопасных синглотов, в завивисимости от ситуации.
 Синглтонов. Возможно вам пригодиться это при выполнении ЛР3.
@@ -80,11 +80,11 @@
    Пример реализации
 </h3>
 
-[Имитация объекта, отвечающего за подключение к БД.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/singleton/code)
+[Имитация объекта, отвечающего за подключение к БД.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/creational/singleton/code)
 
 <h3 align="center">
    Источники
 </h3>
 
-- Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Olaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/singleton/books/Alexander%20Shvets%20RU.pdf)
+- Design Patterns with Java: [Singleton](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/singleton/books/Olaf%20Musch%20EN.pdf)
+- Введение в паттерны проектирования: [Одиночка](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/singleton/books/Alexander%20Shvets%20RU.pdf)

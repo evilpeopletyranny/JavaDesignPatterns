@@ -47,7 +47,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/state/diagram.png alt="State uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/state/diagram.png alt="State uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -64,7 +64,7 @@
    Примеры
 </h3>
 
-- [Пример с посылкой.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/state/code/)
+- [Пример с посылкой.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/state/code/)
   Посылка имеет явное ограниченное число состояний. Каждое состояние внутри уже связано со следующим.
 
 <h5>
@@ -79,6 +79,6 @@
 </h3>
 
 - Design Patterns with
-  Java: [State](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/state/books/Olaf%20Musch%20EN.pdf)
+  Java: [State](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/state/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Наблюдатель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/state/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Наблюдатель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/state/books/Alexander%20Shvets%20RU.pdf)

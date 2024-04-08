@@ -38,7 +38,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/abstractfactory/diagram.png alt="abstract factory uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/abstractfactory/diagram.png alt="abstract factory uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -58,11 +58,11 @@
    Пример реализации
 </h3>
 
-[Фабрики мебели разных стилей.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/abstractfactory/code)
+[Фабрики мебели разных стилей.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/creational/abstractfactory/code)
 
 <h3 align="center">
    Источники
 </h3>
 
-- Design Patterns with Java: [Abstract Factory](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/abstractfactory/books/Olaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Абстрактная фабрика](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/abstractfactory/books/Alexander%20Shvets%20RU.pdf)
+- Design Patterns with Java: [Abstract Factory](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/abstractfactory/books/Olaf%20Musch%20EN.pdf)
+- Введение в паттерны проектирования: [Абстрактная фабрика](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/abstractfactory/books/Alexander%20Shvets%20RU.pdf)

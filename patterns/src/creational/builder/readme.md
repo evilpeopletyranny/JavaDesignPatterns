@@ -63,13 +63,13 @@
 
 - Самой простой пример это класс ```StringBuilder```. Этот класс позволяет работать с изменяемыми строками, где в
   качестве шагов создания добавляются символы в строку. *Всё гениальное простое*.
-- [Реализация внутренного билдера для создания Поездки.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/builder/code)
+- [Реализация внутренного билдера для создания Поездки.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/creational/builder/code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Builder](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/builder/books/Olaf%20Musch%20EN.pdf)
+  Java: [Builder](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/builder/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Строитель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/builder/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Строитель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/builder/books/Alexander%20Shvets%20RU.pdf)

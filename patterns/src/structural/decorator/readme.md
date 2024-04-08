@@ -38,7 +38,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/decorator/diagram.png alt="decorator uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/decorator/diagram.png alt="decorator uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -69,6 +69,6 @@
 </h3>
 
 - Design Patterns with
-  Java: [Decorator](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/decorator/books/Olaf%20Musch%20EN.pdf)
+  Java: [Decorator](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/decorator/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Декоратор](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/decorator/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Декоратор](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/decorator/books/Alexander%20Shvets%20RU.pdf)

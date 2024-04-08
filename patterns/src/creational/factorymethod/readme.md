@@ -32,7 +32,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/factorymethod/diagram.png alt="singleton uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/factorymethod/diagram.png alt="singleton uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -52,11 +52,11 @@
    Пример реализации
 </h3>
 
-[Несколько точек питания, реализущие фабричный метод обработки заказов.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/creational/factorymethod/code)
+[Несколько точек питания, реализущие фабричный метод обработки заказов.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/creational/factorymethod/code)
 
 <h3 align="center">
    Источники
 </h3>
 
-- Design Patterns with Java: [Factory Method](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/factorymethod/books/Olaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Фабричный метод](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/creational/factorymethod/books/Alexander%20Shvets%20RU.pdf)
+- Design Patterns with Java: [Factory Method](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/factorymethod/books/Olaf%20Musch%20EN.pdf)
+- Введение в паттерны проектирования: [Фабричный метод](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/factorymethod/books/Alexander%20Shvets%20RU.pdf)

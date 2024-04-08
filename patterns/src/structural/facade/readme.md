@@ -33,7 +33,7 @@
 </h3>
 
 <p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/facade/diagram.png alt="Facade uml">
+   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/facade/diagram.png alt="Facade uml">
 </p>
 
 <h3>Плюсы</h3>
@@ -49,7 +49,7 @@
    Примеры
 </h3>
 
-- [Скрытие запуска и останова двигателя за фасадом.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/structural/facade/code)
+- [Скрытие запуска и останова двигателя за фасадом.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/structural/facade/code)
 
 <h3 align="center">
   Источники
@@ -58,6 +58,6 @@
 - [Baeldung: Facade Design Pattern in Java](https://www.baeldung.com/java-facade-pattern)
 
 - Design Patterns with
-  Java: [Facade](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/facade/books/Olaf%20Musch%20EN.pdf)
+  Java: [Facade](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/facade/books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Фасад](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/structural/facade/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Фасад](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/facade/books/Alexander%20Shvets%20RU.pdf)
