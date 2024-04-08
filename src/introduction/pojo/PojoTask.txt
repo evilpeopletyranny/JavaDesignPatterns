@@ -1,9 +1,0 @@
-Задание:
-Реализуйте POJO класс User, у которого есть:
-  - id
-  - username
-  - login
-  - password
-  - email
-
- Т.е. должен содержать конструктор со всеми параметрами, геттеры, сеттеры, toString, hashCode, equals
