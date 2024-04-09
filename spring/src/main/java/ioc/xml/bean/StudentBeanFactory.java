@@ -1,4 +1,4 @@
-package context.xml.bean;
+package ioc.xml.bean;
 
 /**
  * Фабрика студентов

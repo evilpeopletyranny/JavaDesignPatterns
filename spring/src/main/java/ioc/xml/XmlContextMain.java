@@ -1,11 +1,14 @@
-package context.xml;
+package ioc.xml;
 
-import context.xml.bean.Student;
+import ioc.xml.bean.Student;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * Работа с контекстом через XML файл.
+ */
 public class XmlContextMain {
     public static void main(String[] args) {
-        //Получение контекста из XML-файла
+        //Получение контекста из XML-файла (resources/applicationContext.xml)
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         //Студент, который инициализировался через конструктор
@@ -24,7 +27,8 @@ public class XmlContextMain {
         var fourthStudent = context.getBean("fourthStudent", Student.class);
         System.out.println(fourthStudent);
 
-        //Закрытие контекста
+        //Контекст необходимо закрывать.
+        //Приложение не сработает пока не будет закрыт контекст.
         context.close();
     }
 }

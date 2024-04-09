@@ -13,7 +13,7 @@
     <!-- id - имя по которому контекст будет получать данные.
          class - путь к классу, бин которого описывается. -->
 
-    <bean id="firstStudent" class="context.mix.bean.Student">
+    <bean id="firstStudent" class="ioc.mix.bean.Student">
         <!-- Инициализация через конструктор (используется только констурктор со всеми параметрами!)
              Аргументы указываются в теге constructor-arg в формате ключ значение -->
         <constructor-arg name="name" value="Vasya"/>
@@ -22,7 +22,7 @@
         <constructor-arg name="creationType" value="Init by constructor"/>
     </bean>
 
-    <bean id="secondStudent" class="context.mix.bean.Student">
+    <bean id="secondStudent" class="ioc.mix.bean.Student">
         <!-- Инициализация через сеттеры (использует конструктор без параметров для создания,
              затем поля инициализируются через сеттеры)-->
         <property name="name" value="Igor"/>
@@ -31,7 +31,7 @@
         <property name="creationType" value="Init by setters"/>
     </bean>
 
-    <bean id="thirdStudent" class="context.mix.bean.Student" factory-method="createStudent">
+    <bean id="thirdStudent" class="ioc.mix.bean.Student" factory-method="createStudent">
         <!-- Инициализация через внутренний (определенный в классе Student) фабричный метод.
              В factory-method прописывается название фабричного метода -->
         <constructor-arg name="name" value="Sveta"/>
@@ -41,8 +41,8 @@
     </bean>
 
     <!-- Для инициализации через внешний фабричный метод сначала необходимо инициализировать бин самой фабрики-->
-    <bean id="StudentBeanFactory" class="context.bean.StudentBeanFactory"/>
-    <bean id="fourthStudent" class="context.mix.bean.Student" factory-method="createStudent" factory-bean="StudentBeanFactory"
+    <bean id="StudentBeanFactory" class="ioc.bean.StudentBeanFactory"/>
+    <bean id="fourthStudent" class="ioc.mix.bean.Student" factory-method="createStudent" factory-bean="StudentBeanFactory"
           scope="prototype">
         <!-- Инициализация через внешний (определенный в классе StudentBeanFactory) фабричный метод.
              В factory-method прописывается название фабричного метода.

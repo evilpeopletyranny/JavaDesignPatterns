@@ -23,8 +23,11 @@ dependencies {
     implementation("org.springframework:spring-context-support:${springVersion}")
     implementation("org.springframework:spring-aop:${springVersion}")
 
-    runtimeOnly("org.aspectj:aspectjrt:1.9.22")
-    runtimeOnly("org.aspectj:aspectjweaver:1.9.22")
+    implementation("jakarta.annotation:jakarta.annotation-api:3.0.0")
+
+
+    implementation("org.aspectj:aspectjrt:1.9.22")
+    implementation("org.aspectj:aspectjweaver:1.9.22")
 }
 
 tasks.test {

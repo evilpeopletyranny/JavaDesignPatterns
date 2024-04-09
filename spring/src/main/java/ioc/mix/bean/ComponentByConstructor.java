@@ -1,4 +1,4 @@
-package context.mix.bean;
+package ioc.mix.bean;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
@@ -7,11 +7,18 @@ import org.springframework.stereotype.Component;
 import java.util.Objects;
 
 /**
- * Компонент, инициализация которого происходит через
- * конструктор.
+ * Компонент, инициализация которого происходит через конструктор.
+ * Компонент сразу создается через конструктор с параметрами.
+ * <p>
+ * Аннотация @Component указывает, что объекты данного класса будут бинами, т.е.
+ * будут создаваться и управляться Spring Container.
+ * Если к аннотации @Component не прописать bean id, то бину будет назначен дефолтный id.
+ * Дефолтный bean id получается из имени класса, заменяя его первую заглавную букву на прописную.
+ * <p>
+ * Аннотация @PropertySource указывает файл, в котором лежат данные для подстановки при помощи аннотации @Value
  */
 @Component
-@PropertySource("component.property")   //файл в resources, в котором прописаны данные для инициализации
+@PropertySource("component.property")
 public class ComponentByConstructor {
     String host;
     String port;

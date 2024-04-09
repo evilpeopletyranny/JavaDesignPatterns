@@ -1,12 +1,13 @@
-package context.mix;
+package ioc.mix;
 
-import context.mix.bean.ComponentByConstructor;
-import context.mix.bean.ComponentBySetters;
+import ioc.mix.bean.ComponentByConstructor;
+import ioc.mix.bean.ComponentBySetters;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MixContextMain {
     public static void main(String[] args) {
         //Чтение контекста из xml файла с автосканированием патеков
+        //В файле указаны пакеты для сканирования
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("autoScanContext.xml");
 
         //Чтение компонента, инициализирующегося через конструктор
@@ -17,6 +18,8 @@ public class MixContextMain {
         var componentBySetters = context.getBean("bySetters", ComponentBySetters.class);
         System.out.println(componentBySetters);
 
+        //Контекст необходимо закрывать.
+        //Приложение не сработает пока не будет закрыт контекст.
         context.close();
     }
 }

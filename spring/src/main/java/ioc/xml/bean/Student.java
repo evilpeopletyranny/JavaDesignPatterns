@@ -1,4 +1,4 @@
-package context.xml.bean;
+package ioc.xml.bean;
 
 import java.util.Objects;
 
@@ -11,7 +11,7 @@ import java.util.Objects;
  * При выполнении ЛР выберите один из способов инициализации бинов и работайте с ним!
  * Не надо намешивать всё подряд.
  * Например при инициализации через конструктор вам не нужны: пустой конструктор
- * и фабринчый метод.
+ * и фабричный метод.
  */
 public class Student {
     private String name;
@@ -20,8 +20,7 @@ public class Student {
     private String creationType;
 
     /**
-     * Явно задаем конструктор без параметров, т.к. есть другие
-     * конструкторы.
+     * Явно задаем конструктор без параметров, т.к. есть другие конструкторы.
      * Конструктор без параметров используется при инициализации бина
      * через сеттеры.
      */
@@ -93,7 +92,10 @@ public class Student {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
-        return Objects.equals(name, student.name) && Objects.equals(age, student.age) && Objects.equals(group, student.group) && Objects.equals(creationType, student.creationType);
+        return Objects.equals(name, student.name)
+                && Objects.equals(age, student.age)
+                && Objects.equals(group, student.group)
+                && Objects.equals(creationType, student.creationType);
     }
 
     @Override
