@@ -8,6 +8,9 @@ import java.util.Objects;
 
 @Component
 public class Computer {
+
+    //Внедрение зависимости через поле
+    //Указан тип интерфейса, конкретный бин определяется через @Qualifier
     @Autowired
     @Qualifier("intelProcessor")
     private IProcessor processor;

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Objects;
 
+//Бин, реализующий интерфейс
 @Component
 public class AMDProcessor implements IProcessor {
     private Long frequency;

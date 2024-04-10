@@ -7,7 +7,9 @@ public class DifficultBean {
     private String text;
     private Double number;
 
-    public DifficultBean(IExampleBean exampleBean, String text, Double number) {
+    public DifficultBean(IExampleBean exampleBean,
+                         String text,
+                         Double number) {
         this.exampleBean = exampleBean;
         this.text = text;
         this.number = number;

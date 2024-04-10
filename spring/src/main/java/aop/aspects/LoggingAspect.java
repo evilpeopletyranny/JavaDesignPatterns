@@ -32,7 +32,7 @@ public class LoggingAspect {
                 if (obj instanceof Book)
                 {
                     Book myBook = (Book) obj;
-                    System.out.println("Информация о книге: название - " + myBook.getName() + ", author - "
+                    System.out.println("нформация о книге: название - " + myBook.getName() + ", author - "
                             + myBook.getAuthor() + ", год издания - " + myBook.getYearsOfPublication());
                 }
                 else if (obj instanceof String)
