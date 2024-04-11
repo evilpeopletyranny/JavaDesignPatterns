@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Objects;
 
+//Бин с областью видимости prototype
 @Component
 @Scope("prototype")
 public class PrototypeService {

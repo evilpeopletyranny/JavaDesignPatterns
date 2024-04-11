@@ -2,6 +2,7 @@ package scope.singleton;
 
 import java.util.Objects;
 
+//Бин, инициализация которого прописывается в XML-файле
 public class SingletonPerson {
     private String name;
     private String lastname;

@@ -4,6 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- Scope для бина задается в соответсвующем свойстве. -->
     <bean class="scope.singleton.SingletonPerson" scope="singleton">
         <constructor-arg name="name" value="Petr"/>
         <constructor-arg name="lastName" value="Petrov"/>
