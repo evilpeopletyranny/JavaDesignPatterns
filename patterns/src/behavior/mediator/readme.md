@@ -41,9 +41,7 @@
    Mediator UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/mediator/diagram.png alt="Mediator uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -60,7 +58,7 @@
 </h3>
 
 - В паттерне Model-View-Controller, controller является посредником между view/use и model.
-- [Реализация чат-команты на примере посредника.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/mediator/code/)
+- [Реализация чат-команты на примере посредника.](code)
 
 Между **Mediator** и **Observer** по началу сложно уловить разницу.
 
@@ -95,6 +93,6 @@
 </h3>
 
 - Design Patterns with
-  Java: [Mediator](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/mediator/books/Olaf%20Musch%20EN.pdf)
+  Java: [Mediator](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Посредник](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/mediator/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Посредник](books/Alexander%20Shvets%20RU.pdf)

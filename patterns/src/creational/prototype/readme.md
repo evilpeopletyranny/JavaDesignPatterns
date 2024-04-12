@@ -35,9 +35,7 @@
    Prototype UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/prototype/diagram.png alt="singleton uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -53,7 +51,7 @@
    Пример реализации
 </h3>
 
-- [Создание двух сложных объектов, у которых отличается одно поле.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/creational/prototype/code)
+- [Создание двух сложных объектов, у которых отличается одно поле.](code)
 
 <h5 align="center">
    Проблема с примером из книги
@@ -70,7 +68,7 @@
 </h3>
 
 - Design Patterns with
-  Java: [Factory Method](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/prototype/books/Olaf%20Musch%20EN.pdf)
+  Java: [Factory Method](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Фабричный метод](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/creational/prototype/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Фабричный метод](books/Alexander%20Shvets%20RU.pdf)
 - [JavaRush: Шаблон проектирования Prototype: реализация на Java.](https://javarush.com/groups/posts/6488-kofe-breyk-259-shablon-proektirovanija-prototype-realizacija-na-java-funkcionaljhnihe-interfeys)

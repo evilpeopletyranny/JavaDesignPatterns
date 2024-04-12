@@ -48,9 +48,7 @@
    Adapter UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/adapter/diagram.png alt="adapter uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -64,8 +62,8 @@
    Примеры
 </h3>
 
-- [Адаптирование сортировки списка к сортировке массива.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/structural/adapter/code/sort)
-- [Конвертор данных от БД через JDBC в виде Адаптера.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/structural/adapter/code/JDBCexample)
+- [Адаптирование сортировки списка к сортировке массива.](code/sort)
+- [Конвертор данных от БД через JDBC в виде Адаптера.](code/JDBCexample)
   Пример очень надуманный, но надеюсь поможет студентам, которые захотели использовать БД. *Суть в том, чтобы
   использовать JDBC как **полезный сервис***.
 - [Habr: Java Adapter Pattern in Game Server](https://habr.com/ru/articles/577220/)
@@ -75,9 +73,8 @@
 - Яркий пример адаптера из стандартной библиотеки *Java* это JDBC для работы с БД. JDBC - Драйверы
   JDBC - это адаптеры на стороне клиента (установленные на клиентском компьютере, а не на
   сервере), которые преобразуют запросы от программ Java в протокол, понятный СУБД.
-    <p align="center">
-        <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/adapter/JDBC.png alt="jdbc adapter">
-    </p>
+
+  ![JDBC.png](JDBC.png)
 
 <h5 align="center">
    Замечания
@@ -108,9 +105,9 @@
 </h3>
 
 - Design Patterns with
-  Java: [Adapter](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/adapter/books/Olaf%20Musch%20EN.pdf)
+  Java: [Adapter](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Адаптер](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/adapter/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Адаптер](books/Alexander%20Shvets%20RU.pdf)
 - [Habr: Java Adapter Pattern in Game Server](https://habr.com/ru/articles/577220/)
 - [JavaRush: Паттерн проектирования Адаптер](https://javarush.com/groups/posts/2139-pattern-proektirovanija-adapter)
 - [Шаблон адаптера в Java](https://for-each.dev/lessons/b/-java-adapter-pattern) пример использования Адаптера для

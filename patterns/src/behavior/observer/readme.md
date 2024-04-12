@@ -38,9 +38,7 @@
    Observer UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/observer/diagram.png alt="Observer uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -68,7 +66,7 @@
   используется паттерн Издатель-Подписчик.
 
 - [Baeldung: The Observer Pattern in Java](https://www.baeldung.com/java-observer-pattern)
-- [Пример с церковью и прихожанами.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/observer/code/)
+- [Пример с церковью и прихожанами.](code)
 
 <h5>
     Замечание
@@ -87,6 +85,6 @@ Java. Использование данного класса позволяет 
 </h3>
 
 - Design Patterns with
-  Java: [Observer](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/observer/books/Olaf%20Musch%20EN.pdf)
+  Java: [Observer](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Наблюдатель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/observer/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Наблюдатель](books/Alexander%20Shvets%20RU.pdf)

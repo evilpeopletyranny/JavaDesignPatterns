@@ -39,9 +39,7 @@
    Template Method UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/templatemethod/diagram.png alt="Template Method uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -59,13 +57,13 @@
 </h3>
 
 - [Baeuldung: Implementing the Template Method Pattern in Java](https://www.baeldung.com/java-template-method-pattern)
-- [Пример с двумя разными алгоритмами сдачи ЛР](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/templatemethod/code/)
+- [Пример с двумя разными алгоритмами сдачи ЛР](code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Template Method](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/templatemethod/books/Olaf%20Musch%20EN.pdf)
+  Java: [Template Method](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Шаблонный метод](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/templatemethod/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Шаблонный метод](books/Alexander%20Shvets%20RU.pdf)

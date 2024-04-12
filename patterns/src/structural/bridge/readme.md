@@ -45,9 +45,7 @@
    Bridge UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/bridge/diagram.png alt="bridge uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -68,13 +66,13 @@
 </h3>
 
 - [JavaRush: паттерн проектирования мост.](https://javarush.com/groups/posts/2570-znakomstvo-s-patternom-proektirovanija-bridge)
-- [Пример с девайсами и пультами.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/structural/bridge/code/devices)
+- [Пример с девайсами и пультами.](code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Bridge](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/bridge/books/Olaf%20Musch%20EN.pdf)
+  Java: [Bridge](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Мост](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/bridge/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Мост](books/Alexander%20Shvets%20RU.pdf)

@@ -3,22 +3,22 @@ package aop;
 import org.springframework.stereotype.Component;
 
 /**
- * Класс университетской библиотеки - обычный компонент.
+ * Класс школьной библиотеки - обычный компонент.
  * ВАЖНО!!! Аспекты работают только на бинах!
  */
 @Component
-public class UniLibrary implements ILibrary {
+public class SchoolLibrary implements ILibrary {
     /**
      * Простой метод взяти книги, который не содержит сложной и постронней логики
      */
     @Override
     public void getBook() {
-        System.out.println("Мы берем книгу из UniLibrary");
+        System.out.println("Мы берем книгу из SchoolLibrary");
     }
 
     @Override
     public void returnBook() {
-        System.out.println("Мы возвращаем книгу в UniLibrary");
+        System.out.println("Мы возвращаем книгу в SchoolLibrary");
     }
 
     /**
@@ -27,6 +27,6 @@ public class UniLibrary implements ILibrary {
      */
     @Override
     public void giveBookToPerson(String bookName, Person person) {
-        System.out.println(person.name() + " получил книгу " + bookName + " в UniLibrary");
+        System.out.println(person.name() + "получил книгу " + bookName + "в SchoolLibrary");
     }
 }

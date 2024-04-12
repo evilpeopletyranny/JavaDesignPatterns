@@ -74,9 +74,7 @@ foreach (Node node : graph)
    Visitor UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/visitor/diagram.png alt="Visitor uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -109,7 +107,7 @@ foreach (Node node : graph)
    Примеры
 </h3>
 
-- [Обход документа с узлами в разынх нотациях](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/visitor/code/)
+- [Обход документа с узлами в разынх нотациях](code)
 
 <h3 align="center">
    Источники
@@ -117,6 +115,6 @@ foreach (Node node : graph)
 
 - [Wikipedia: Двойная диспетчеризация.](https://en.wikipedia.org/wiki/Double_dispatch)
 - Design Patterns with
-  Java: [Visitor](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/visitor/books/Olaf%20Musch%20EN.pdf)
+  Java: [Visitor](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Посетитель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/visitor/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Посетитель](books/Alexander%20Shvets%20RU.pdf)

@@ -36,9 +36,7 @@
    Strategy UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/strategy/diagram.png alt="Strategy uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -73,13 +71,13 @@
 
 - [Baeuldung: Strategy Design Pattern in Java 8.](https://www.baeldung.com/java-strategy-pattern)
 - [JavaRush: Паттерн проектирования “Стратегия”](https://javarush.com/groups/posts/2271-pattern-proektirovanija-strategija)
-- [Пример со стратегий прокладывания маршрута.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/strategy/code/)
+- [Пример со стратегий прокладывания маршрута.](code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Strategy](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/strategy/books/Olaf%20Musch%20EN.pdf)
+  Java: [Strategy](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Стратегия](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/behavior/strategy/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Стратегия](books/Alexander%20Shvets%20RU.pdf)

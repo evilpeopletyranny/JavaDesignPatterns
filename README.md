@@ -22,9 +22,9 @@
    Состав курса
 </h2>
 
-1. [Паттерны проектирования GoF.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src)
-2. [Использование современных фреймворков, реализующих паттерны - Spring.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/spring/src)
-3. [Применение паттернов при работе с параллелизмом.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/concurrency/src)
+1. [Паттерны проектирования GoF.](patterns/src/readme.md)
+2. [Использование современных фреймворков, реализующих паттерны - Spring.](spring/src/readme.md)
+3. [Применение паттернов при работе с параллелизмом.](concurrency)
 
 <h2 align="center">
    Литература

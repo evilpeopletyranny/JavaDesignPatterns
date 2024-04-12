@@ -38,9 +38,7 @@
    Memento UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/memento/diagram.png alt="Memento uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -70,7 +68,7 @@
 </h3>
 
 - Всё где вы отменяете действие это и есть снимок.
-- [Пример с текстовым рекдактором.](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/memento/code/)
+- [Пример с текстовым рекдактором.](code)
 
 <h3 align="center">
    Источники
@@ -78,6 +76,6 @@
 
 - [Baeldung: Memento Design Pattern in Java](https://www.baeldung.com/java-memento-design-pattern)
 - Design Patterns with
-  Java: [Memento](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/memento/books/Olaf%20Musch%20EN.pdf)
+  Java: [Memento](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Снимок](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/src/patterns/behavior/memento/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Снимок](books/Alexander%20Shvets%20RU.pdf)

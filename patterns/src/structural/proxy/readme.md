@@ -53,7 +53,7 @@
 
 - [Аспектно-ориентированное программирование (AOP)](https://docs.spring.io/spring-framework/reference/core/aop.html). С
   ним вы познакомитесь на второй ЛР при работе со Spring.
-- [Пример с кэширующим прокси youtube сервиса.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/structural/proxy/code)
+- [Пример с кэширующим прокси youtube сервиса.](code)
 - Unmodifiable коллекции. В Java есть прокси для коллекций, который позволяют работать с ними как с иммутабельными.
 - Механизм Java Reflection, который позволяет "читать и взамодействовать" с кодом программы на лету также является
   Proxy. Кстати в Spring многое реализовано через механизмы Reflection.
@@ -62,9 +62,7 @@
    Proxy UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/proxy/diagram.png alt="proxy uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3 align="center">
    Сравнение с другими паттернами.
@@ -82,6 +80,6 @@
 </h3>
 
 - Design Patterns with
-  Java: [Proxy](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/proxy/books/Olaf%20Musch%20EN.pdf)
+  Java: [Proxy](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Заместитель](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/proxy/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Заместитель](books/Alexander%20Shvets%20RU.pdf)

@@ -37,9 +37,7 @@
    Decorator UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/decorator/diagram.png alt="decorator uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -62,13 +60,13 @@
 
 - Все библиотеки ввода-вывода **IO** и **NIO** в **Java** это яркий пример удачного использования декоратора.
 - [JavaRush: Паттерн проектирования декоратор с примерами.](https://javarush.com/groups/posts/3833-pattern-proektirovanija-dekorator-s-primerami)
-- [Добавления и урезания функционала на примере пиццы](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/src/patterns/structural/decorator/code)
+- [Добавления и урезания функционала на примере пиццы](code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Decorator](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/decorator/books/Olaf%20Musch%20EN.pdf)
+  Java: [Decorator](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Декоратор](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/decorator/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Декоратор](books/Alexander%20Shvets%20RU.pdf)

@@ -36,9 +36,7 @@
    Composite UML-диаграмма
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/composite/diagram.png alt="Composite uml">
-</p>
+![diagram.png](diagram.png)
 
 <h3>Плюсы</h3>
 
@@ -53,13 +51,13 @@
    Примеры
 </h3>
 
-- [Дерево товаров и контейнеров товаров](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/structural/composite/code)
+- [Дерево товаров и контейнеров товаров](code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Composite](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/composite/books/Olaf%20Musch%20EN.pdf)
+  Java: [Composite](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Компоновщик](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/composite/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Компоновщик](books/Alexander%20Shvets%20RU.pdf)

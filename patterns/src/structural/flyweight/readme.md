@@ -44,9 +44,7 @@
    Flyweight UML-диаграмма с примером на пицце
 </h3>
 
-<p align="center">
-   <img src=https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/flyweight/diagram.png alt="decorator uml">
-</p>
+![diagram.png](diagram.png)
 
 Придумать и привести какую-то общую диаграмму не получается.
 
@@ -63,13 +61,13 @@
    Примеры
 </h3>
 
-- [Легковес на примере меню в кафе.](https://github.com/evilpeopletyranny/JavaDesignPatterns/tree/main/patterns/src/structural/flyweight/code)
+- [Легковес на примере меню в кафе.](code)
 
 <h3 align="center">
    Источники
 </h3>
 
 - Design Patterns with
-  Java: [Flyweight](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/flyweight/books/Olaf%20Musch%20EN.pdf)
+  Java: [Flyweight](books/Olaf%20Musch%20EN.pdf)
 - Введение в паттерны
-  проектирования: [Легковес](https://github.com/evilpeopletyranny/JavaDesignPatterns/blob/main/patterns/src/structural/flyweight/books/Alexander%20Shvets%20RU.pdf)
+  проектирования: [Легковес](books/Alexander%20Shvets%20RU.pdf)
