@@ -30,12 +30,19 @@ Java приложений. При выполнении необходимо мо
 4. **Aspect Oriented Programming** - отделение сквозного функцианала от бизнес-логики приложения.
 
 <h3 align="center">
+    Как запустить проект
+</h3>
+
+При работе с данном репозиторием у студентов могут возникнуть сложности. Для их решения
+следуйте [инструкции](material/manual/manual.md).
+
+<h3 align="center">
     Содержание
 </h3>
 
-1. [Понятие фреймворка, краткое сравнение с библиотекой]()
-2. [Inversion of Control. Контекст. Способы задания контекста.]()
-3. [Dependency Injection.]()
-4. [Scope. Область видимости бинов.]()
-5. [Жизненый цикл бинов.]()
-6. [Aspect Oriented Programming (AOP).]()
+1. [Понятие фреймворка, краткое сравнение с библиотекой](material/fraemwork.md)
+2. [Inversion of Control. Контекст. Способы задания контекста.](main/java/ioc/readme.md)
+3. [Dependency Injection.](main/java/di/readme.md)
+4. [Scope. Область видимости бинов.](main/java/scope/readme.md)
+5. [Жизненый цикл бинов.](main/java/lifeCycle/readme.md)
+6. [Aspect Oriented Programming (AOP).](main/java/aop/readme.md)
