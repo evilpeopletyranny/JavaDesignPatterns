@@ -343,6 +343,12 @@ public Object AroundDiveBookToPersonAdvice(ProceedingJoinPoint proceedingJoinPoi
 
 ![aroundDiagram.png](media/aroundDiagram.png)
 
+<h3>
+  Пример
+</h3>
+
+В [примере](Main.java) рассматривается лишь не большая часть из того, что здесь написано. Написано здесь довольно мало, ведь аспекты это целый фреймворк и отдельный мир...
+
 <h3 align="center">
 Источники
 </h3>
