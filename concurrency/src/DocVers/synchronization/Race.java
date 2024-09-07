@@ -7,7 +7,7 @@ public class Race {
     static int counter = 0;
     //статически метод, добавляющий к нашей переменной 10000 раз по единице в цикле.
     public static void cyclicAdd(){
-        for (int j = 0; j < 10000; j++)
+        for (int j = 0; j < 10_000; j++)
             counter++;
     }
 

@@ -6,8 +6,8 @@ public class MonitorRaceSolution {
     //Пусть будет у нас некоторая разделяемая переменная
     static int counter = 0;
     //статически метод, добавляющий к нашей переменной 10000 раз по единице в цикле.
-    public static synchronized void cyclicAdd(){
-        for (int j = 0; j < 10000; j++)
+    public static synchronized void cyclicAdd() {
+        for (int j = 0; j < 100000000; j++)
             counter++;
     }
 

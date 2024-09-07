@@ -4,7 +4,7 @@ import java.time.Duration;
 
 public class JoinDemo {
     //выводит название потока
-    public static void printThread(){
+    public static void printThread() {
         System.out.println("This message has printed by thread [" + Thread.currentThread().getName() + "]");
     }
 

@@ -4,7 +4,7 @@ import java.time.Duration;
 
 public class ThreadCreation {
     //Наследование от Thread
-    static class MyThread extends Thread{
+    static class MyThread extends Thread {
         //Ждём секунду, после чего выводим сообщение
         @Override
         public void run(){
@@ -28,6 +28,7 @@ public class ThreadCreation {
     public static void main(String[] args) {
         //Класс, наследующий Thread не нуждается в дополнительном потоке.
         MyThread myThread = new MyThread();
+
         //Поскольку интерфейс Runnable представляет собой "задачку для исполнения",
         //то для её запуска требуется дополнительный поток.
         MyRunnable myRunnable = new MyRunnable();

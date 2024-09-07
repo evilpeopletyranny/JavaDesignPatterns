@@ -25,7 +25,7 @@ public class SleepingBarberSolution {
 
         public synchronized void doBarberWork(){
             while (hasClients()){
-                Client client = clients.get(0);
+                Client client = clients.getFirst();
                 System.out.println("Barber is shaving");
                 try {
                     Thread.sleep(WORK_DELAY);

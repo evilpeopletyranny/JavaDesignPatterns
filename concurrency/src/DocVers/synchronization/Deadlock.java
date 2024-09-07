@@ -9,6 +9,7 @@ public class Deadlock {
         Lock bread = new ReentrantLock();
         //варенье
         Lock jam = new ReentrantLock();
+
         //вы
         Thread you = new Thread(()-> {
             System.out.println("you have started eating attempt");
@@ -19,14 +20,15 @@ public class Deadlock {
             jam.unlock();
             bread.unlock();
         });
+
         //ваш друг
         Thread yourFriend = new Thread(()-> {
             System.out.println("your friend has started eating attempt");
             jam.lock();
             try { Thread.sleep(100); } catch (InterruptedException e) { e.printStackTrace(); }
-            bread.lock();
-            System.out.println("YourFriend is eating bread with jam");
-            bread.unlock();
+                bread.lock();
+                System.out.println("YourFriend is eating bread with jam");
+                bread.unlock();
             jam.unlock();
         });
         //запускаем

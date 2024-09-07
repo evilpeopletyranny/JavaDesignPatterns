@@ -23,10 +23,10 @@ public class DeadlockSolution {
         Thread yourFriend = new Thread(()-> {
             System.out.println("your friend has started eating attempt");
             jam.lock();
-            try { Thread.sleep(100); } catch (InterruptedException e) { e.printStackTrace(); }
-            bread.lock();
-            System.out.println("YourFriend is eating bread with jam");
-            bread.unlock();
+                try { Thread.sleep(100); } catch (InterruptedException e) { e.printStackTrace(); }
+                bread.lock();
+                System.out.println("YourFriend is eating bread with jam");
+                bread.unlock();
             jam.unlock();
         });
         //запускаем
