@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_patterns/1_patterns.iml" filepath="$PROJECT_DIR$/1_patterns/1_patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_concurrency/3_concurrency.iml" filepath="$PROJECT_DIR$/3_concurrency/3_concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDesignPatterns.iml" filepath="$PROJECT_DIR$/JavaDesignPatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.spring.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring.iml" filepath="$PROJECT_DIR$/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.test.iml" />
