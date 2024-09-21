@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Потенциально внедряемый бин, который реализует интерфейс IExampleBean.
+         Требуется обязтаельно задать id бина, чтобы ссылаться по нему при внедрении -->
+    <bean id="anotherBean" class="di.xml.bean.AnotherBean">
+        <constructor-arg name="text" value="AnotherBean by Constructor"/>
+        <constructor-arg name="number" value="7500"/>
+    </bean>
+
+    <!-- Потенциально внедряемый бин, который реализует интерфейс IExampleBean.
+         Требуется обязтаельно задать id бина, чтобы ссылаться по нему при внедрении -->
+    <bean id="exampleBean" class="di.xml.bean.ExampleBean">
+        <property name="text" value="ExampleBean by Setters"/>
+        <property name="number" value="100"/>
+    </bean>
+
+    <!-- Бин, в который происходит внедрение зависимости.
+         В данном случае внедрение происходит через конструктор.
+         Внедрение происходит при помощи ref, где указывает id конктреного бина,
+         который будет внедрен.
+         Магия слабосвязаности, основанной на интерфейсах!!! -->
+    <bean class="di.xml.bean.DifficultBean">
+        <constructor-arg name="exampleBean" ref="anotherBean"/>
+        <constructor-arg name="text" value="Bean with Dependency Injection"/>
+        <constructor-arg name="number" value="1000"/>
+    </bean>
+</beans>

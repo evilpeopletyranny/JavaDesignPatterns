@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Инициализаци бинов через XML-файл -->
+    <!-- Важно!!! Путь к классу описывается относительно Source Root (синенький пакет)
+         В нашем случае относительно пакета java.
+         Путь описывается через точку.
+    -->
+
+    <!-- id - имя по которому контекст будет получать данные.
+         class - путь к классу, бин которого описывается. -->
+
+    <bean id="firstStudent" class="ioc.xml.bean.Student">
+        <!-- Инициализация через конструктор (используется только констурктор со всеми параметрами!)
+             Аргументы указываются в теге constructor-arg в формате ключ значение -->
+        <constructor-arg name="name" value="Vasya"/>
+        <constructor-arg name="age" value="20"/>
+        <constructor-arg name="group" value="22-IVT-4"/>
+        <constructor-arg name="creationType" value="Init by constructor"/>
+    </bean>
+
+    <bean id="secondStudent" class="ioc.xml.bean.Student">
+        <!-- Инициализация через сеттеры (использует конструктор без параметров для создания,
+             затем поля инициализируются через сеттеры)-->
+        <property name="name" value="Igor"/>
+        <property name="age" value="19"/>
+        <property name="group" value="22-IVT-3"/>
+        <property name="creationType" value="Init by setters"/>
+    </bean>
+
+    <bean id="thirdStudent" class="ioc.xml.bean.Student" factory-method="createStudent">
+        <!-- Инициализация через внутренний (определенный в классе Student) фабричный метод.
+             В factory-method прописывается название фабричного метода -->
+        <constructor-arg name="name" value="Sveta"/>
+        <constructor-arg name="age" value="20"/>
+        <constructor-arg name="group" value="22-IVT-4"/>
+        <constructor-arg name="creationType" value="Init by inner factory method"/>
+    </bean>
+
+    <!-- Для инициализации через внешний фабричный метод сначала необходимо инициализировать бин самой фабрики-->
+    <bean id="StudentBeanFactory" class="ioc.xml.bean.StudentBeanFactory"/>
+    <bean id="fourthStudent" class="ioc.xml.bean.Student" factory-method="createStudent" factory-bean="StudentBeanFactory"
+          scope="prototype">
+        <!-- Инициализация через внешний (определенный в классе StudentBeanFactory) фабричный метод.
+             В factory-method прописывается название фабричного метода.
+             В factory-context.bean="helloFactory" указывается id бина фабрики -->
+        <constructor-arg name="name" value="Anna"/>
+        <constructor-arg name="age" value="24"/>
+        <constructor-arg name="group" value="22-IVT-3"/>
+        <constructor-arg name="creationType" value="Init by external factory method"/>
+    </bean>
+</beans>

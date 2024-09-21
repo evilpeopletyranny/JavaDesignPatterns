@@ -1,0 +1,9 @@
+componentByConstructor.host=localhost
+componentByConstructor.port=8080
+componentByConstructor.creationsType=by constructor
+componentByConstructor.connections=50
+
+componentBySetters.host=localhost
+componentBySetters.port=5432
+componentBySetters.creationsType=by setters
+componentBySetters.connections=100
