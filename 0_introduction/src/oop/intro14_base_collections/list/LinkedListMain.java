@@ -11,13 +11,13 @@ public class LinkedListMain {
         animals.add("Elephant");
 
         // Добавление элемента в начало списка
-        animals.addFirst("Tiger");
+        animals.add("Tiger");
 
         // Перебор элементов
         for (String animal : animals) System.out.println(animal);
 
         // Удаление первого элемента
-        animals.removeFirst();
+        animals.remove(animals.size()-1);
         System.out.println("После удаления первого: " + animals);
     }
 }
