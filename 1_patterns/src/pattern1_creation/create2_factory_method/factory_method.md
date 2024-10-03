@@ -319,5 +319,5 @@ public class DocumentMain {
 
 ### Источники
 
-- Design Patterns with Java: [Factory Method](books%2FOlaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Фабричный метод](books%2FAlexander%20Shvets%20RU.pdf)
+- Design Patterns with Java: Factory Method
+- Введение в паттерны проектирования: Фабричный метод

@@ -369,5 +369,5 @@ public class FurnitureMain {
 
 ### Источники
 
-- Design Patterns with Java: [Olaf Musch EN.pdf](books%2FOlaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Абстрактная фабрика](books%2FAlexander%20Shvets%20RU.pdf)
+- Design Patterns with Java: Abstract Factory 
+- Введение в паттерны проектирования: Абстрактная фабрика

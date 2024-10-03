@@ -275,5 +275,5 @@ public enum EnumSingleton {
 
 ### Источники
 
-- Design Patterns with Java: [Singleton](books%2FOlaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Одиночка](books%2FAlexander%20Shvets%20RU.pdf)
+- Design Patterns with Java: Singleton
+- Введение в паттерны проектирования: Одиночка

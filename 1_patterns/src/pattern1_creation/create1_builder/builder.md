@@ -448,5 +448,5 @@ public class Computer {
 
 ### Источники
 
-- Design Patterns with Java: [Builder](books%2FOlaf%20Musch%20EN.pdf)
-- Введение в паттерны проектирования: [Строитель](books%2FAlexander%20Shvets%20RU.pdf)
+- Design Patterns with Java: Builder
+- Введение в паттерны проектирования: Строитель
