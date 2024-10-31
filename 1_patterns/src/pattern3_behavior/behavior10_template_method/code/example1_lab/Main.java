@@ -1,4 +1,4 @@
-package pattern3_behavior.behavior10_template_method.code;
+package pattern3_behavior.behavior10_template_method.code.example1_lab;
 
 /**
  * Пример с честной и не честной сдачей ЛР.
