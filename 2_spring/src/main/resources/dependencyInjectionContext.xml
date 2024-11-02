@@ -6,14 +6,14 @@
 
     <!-- Потенциально внедряемый бин, который реализует интерфейс IExampleBean.
          Требуется обязтаельно задать id бина, чтобы ссылаться по нему при внедрении -->
-    <bean id="anotherBean" class="di.xml.bean.AnotherBean">
+    <bean id="anotherBean" class="spring4_di.xml.bean.AnotherBean">
         <constructor-arg name="text" value="AnotherBean by Constructor"/>
         <constructor-arg name="number" value="7500"/>
     </bean>
 
     <!-- Потенциально внедряемый бин, который реализует интерфейс IExampleBean.
          Требуется обязтаельно задать id бина, чтобы ссылаться по нему при внедрении -->
-    <bean id="exampleBean" class="di.xml.bean.ExampleBean">
+    <bean id="exampleBean" class="spring4_di.xml.bean.ExampleBean">
         <property name="text" value="ExampleBean by Setters"/>
         <property name="number" value="100"/>
     </bean>
@@ -23,7 +23,7 @@
          Внедрение происходит при помощи ref, где указывает id конктреного бина,
          который будет внедрен.
          Магия слабосвязаности, основанной на интерфейсах!!! -->
-    <bean class="di.xml.bean.DifficultBean">
+    <bean class="spring4_di.xml.bean.DifficultBean">
         <constructor-arg name="exampleBean" ref="anotherBean"/>
         <constructor-arg name="text" value="Bean with Dependency Injection"/>
         <constructor-arg name="number" value="1000"/>
