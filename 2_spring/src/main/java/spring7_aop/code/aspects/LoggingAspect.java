@@ -51,7 +51,7 @@ public class LoggingAspect {
      * Для разрешения данного конфликта явно укажем declaring-type-pattern? (класс, которому
      * принадлжеит метод)
      */
-    @AfterReturning("execution(public void aop.UniLibrary.returnBook())")
+    @AfterReturning("execution(public void spring7_aop.code.UniLibrary.returnBook())")
     public void afterUniReturnBookAdvice() {
         System.out.println("afterUniReturnBookAdvice: книга возвращена в UniLibrary");
     }
@@ -65,7 +65,7 @@ public class LoggingAspect {
      * Для разрешения данного конфликта явно укажем declaring-type-pattern? (класс, которому
      * принадлжеит метод)
      */
-    @AfterReturning("execution(public void aop.SchoolLibrary.returnBook())")
+    @AfterReturning("execution(public void spring7_aop.code.SchoolLibrary.returnBook())")
     public void afterSchoolReturnBookAdvice() {
         System.out.println("afterSchoolReturnBookAdvice: книга возвращена в SchoolLibrary");
     }
@@ -82,7 +82,7 @@ public class LoggingAspect {
      * 3. Предпринять какие-либо действия, если из target метода выбрасывается исключение.
      *      исключения также можно перехватывать и обрабатывать.
      */
-    @Around("execution(public void giveBookToPerson(String, aop.Person))")
+    @Around("execution(public void giveBookToPerson(String, spring7_aop.code..Person))")
     public Object AroundDiveBookToPersonAdvice(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         //Действия до выполнения метода!
         //Перехват параметров, переданных в основной метод.

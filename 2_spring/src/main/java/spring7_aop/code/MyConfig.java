@@ -14,7 +14,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * сложно и не понятная ошибка...
  */
 @Configuration
-@ComponentScan("spring7_aop")
+@ComponentScan(basePackages = "spring7_aop")
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 public class MyConfig {
 }
